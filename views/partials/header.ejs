@@ -1,0 +1,19 @@
+<div class="gore_dio">
+    <div class="logo">
+        <a href="/"><img src="/images/ppp.png" width="120px" height="90px" alt="logo"></a>
+    </div>
+    <div class="nazivKategorije">
+        <h1 id="pokazi_kategoriju"> <%= openCategory %> </h1>
+    </div>
+    <div class="kosarica">
+        <div class="kosarica2">
+            <a href="/cart"><img src="/images/cart.png" width="50px" height="50px" alt=""></a>
+            <% if (basketCount > 0) { %>
+            <a id="totalBasketCount" class="count" style="visibility: visible"><%= basketCount %></a>
+            <% } else { %>
+            <a id="totalBasketCount" class="count" style="visibility: hidden"><%= basketCount %></a>
+            <% } %>
+        </div>
+        <img src="/images/search.png" width="50px" height="50px" alt="">
+    </div>
+</div>

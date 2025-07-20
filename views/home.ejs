@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philipe Parfums</title>
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+<body>
+
+<div class="sadrzaj">
+    <%- include('partials/header', { openCategory: openCategory, basketCount: basketCount }) %>
+
+
+    <div class="sku">
+        <div class="ispod_gornjeg_djkela">
+            <div class="kategorije_info">
+                <div class="ljevo_desno">
+                    <div>
+                        <div class="kategorije" id="sve_kategorije">
+
+                            <% categories.forEach((category, index) => { %>
+                            <button onclick="setCategory('<%=index%>', '<%=category%>')"><%= category %></button>
+                            <br>
+                            <% }) %>
+
+
+                        </div>
+                        <br>
+                        <div>
+                            <div class="innfo">
+                                <div><a href="">Kontakt</a></div>
+                                <br>
+                                <div><a href="">Newsletter</a></div>
+                                <br>
+                                <div><a href="">Pretplati se</a></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            <div class="bigPicture">
+                <img src="/images/l2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="otvorene_kategorije">
+        <div class="all">
+
+            <div class="products"> </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<script src="/scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<% products.forEach(product => { %>
+<div onclick="addToCart('<%= product.image %>')" class="parfem">
+    <img src="/images/cart.png" class="druga" alt="">
+    <img class="pkz" src="/images/<%= product.image %>" alt="">
+    <p><%= product.name %></p>
+
+    <%
+    let itemCount = 0;
+    if (cart[product.image]) {
+    itemCount = cart[product.image] || 0;
+    }
+    if (itemCount > 0) { %>
+    <a id="<%= product.image %>" class="count" style="visibility: visible"><%= itemCount %></a>
+    <% } else { %>
+    <a id="<%= product.image %>" class="count" style="visibility: hidden">0</a>
+    <% } %>
+</div>
+<% }) %>

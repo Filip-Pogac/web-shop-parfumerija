@@ -1,0 +1,198 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .sadrzaj {
+        width: 1024px;
+        margin: 50px auto;
+        padding: 20px;
+
+    }
+
+    .bigPicture img {
+        max-width: 90%;
+        width: 50%;
+        height: 30%;
+
+    }
+}
+
+.bigPicture img {
+    width: 850px;
+    height: 350px;
+}
+
+.kosarica {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.sadrzaj {
+    margin: auto;
+}
+
+.kosarica2 {
+    position: relative;
+}
+
+.count{
+    position:absolute;
+    color: #FFF;
+    text-align: center;
+    background-color: #FF0000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    bottom: 0;
+    right: 0;
+}
+
+.innfo {
+    border: solid #000 5px;
+    text-align: center;
+    margin: 5px;
+    width: 110px;
+}
+
+.druga {
+    display: none;
+    position: absolute;
+    width: 50px;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.parfem:hover .druga {
+    display: block;
+}
+
+.otvorene_kategorije {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sku {
+    display: flex;
+    margin-left: -20px;
+}
+
+.bigPicture {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.parfemi img {
+    margin: 2px;
+}
+
+.parfemi {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.pkz img {
+    width: 100px;
+}
+
+.pkz {
+    display: block;
+}
+
+
+.sadrzaj {
+    width: 90%;
+    max-width: 1024px;
+    margin: 50px auto;
+    background-color: #cbd0e0;
+    border: solid 5px #4f5567;
+}
+
+.gore_dio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nazivKategorije {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 75%;
+    margin: auto;
+    background-color: #797d89;
+    border-radius: 5px;
+    border: solid #3b3f48;
+}
+
+.ispod_gornjeg_djkela {
+    display: flex;
+    margin: auto;
+
+}
+
+
+.kategorije {
+    width: 110px;
+    border: solid 5px #4f5567;
+    margin: 5px;
+    background-color: #8b97bd;
+    text-align: center;
+    align-items: center;
+
+}
+
+.parfem {
+    position: relative;
+    border: solid 5px #4f5567;
+    background-color: #797d89;
+    width: 105px;
+    height: 200px;
+    margin: 9px
+
+}
+
+.otvorene_kategorije {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.otvorene_kategorije img {
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    margin: 5px;
+}
+
+.kategorije button {
+    width: 100px;
+    margin: 5px;
+    background-color: #797d89;
+    border: solid 1px #4f5567;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+
+
+}

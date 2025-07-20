@@ -1,0 +1,152 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+
+  .centar{
+    display: flex;
+    border: solid black 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+  }
+
+  #prvi{
+    text-align: left;
+  }
+
+  #drugi{
+    text-align: right;
+  }
+  
+  #pokazi_kategoriju{
+    text-align: center;
+  }
+  
+  .sadrzaj {
+    max-width: 1024px;
+    margin: auto;
+    background-color: #cbd0e0;
+    border: solid 5px #4f5567;
+  }
+  
+  .gore_dio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }               
+  .nazivKategorije {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 75%;
+    margin: auto;
+    background-color: #797d89;
+    border-radius: 5px;
+    border: solid #3b3f48;
+  }
+
+  .ispod_gornjeg_djkela {
+    display: flex;
+    width: 100%;
+    
+  }
+
+.kosarica2 {
+  position: relative;
+}
+
+.count{
+  position:absolute;
+  color: #FFF;
+  text-align: center;
+  background-color: #FF0000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  bottom: 0;
+  right: 0;
+}
+               
+  .kategorije {
+    width: 110px;
+    border: solid 5px #4f5567;
+    margin: 5px;
+    background-color: #8b97bd;
+    text-align: center;
+    align-items: center;
+  
+  }
+  
+  .parfem {
+    border: solid 5px #4f5567;
+    background-color: #797d89;
+    width: 105px;
+    height: 200px;
+    margin: 9px
+    
+  }
+  
+  .otvorene_kategorije{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;  
+  }
+
+
+.kosarica {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+
+
+  .otvorene_kategorije img{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .logo {
+    margin: 5px;
+  }
+  
+  .kategorije button {
+    width: 100px;
+    margin: 5px;
+    background-color: #797d89;
+    border: solid 1px #4f5567;
+  }
+  
+h2{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sadrzaj {
+    width: 1024px;
+    margin: 50px auto;
+    padding: 20px;
+
+  }
+
+  .bigPicture img {
+    max-width: 100%;
+    height: 350px;
+  }
+}
+
+
+.bigPicture img {
+  max-width: 100%;
+  height: 350px;
+}
+
+
+  
